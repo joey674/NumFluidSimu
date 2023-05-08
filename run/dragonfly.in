@@ -1,0 +1,14 @@
+# Numerical settings
+maxTime 	1.0
+dt			0.1
+residual	1.0e-7
+relax_p		0.8
+
+# physical constants
+alpha		13.0
+eta    		8.15
+rho			47.11
+
+
+
+

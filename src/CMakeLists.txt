@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.2)
+project(NumStr)
+add_subdirectory(hummingbird_src)
+add_subdirectory(dragonfly_src)
+add_subdirectory(spider_src)
