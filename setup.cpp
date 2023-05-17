@@ -32,10 +32,10 @@ bool setup( sData* data ) {
    for( int i=0; i<data->nX; i++ ) {
       for( int j=0; j<data->nY; j++ ) {
          //FIXME 
-         double delta_x = (data->xMax - data->xMin)/data->nX; 
-         double delta_y = (data->yMax - data->yMin)/data->nY;
-         data->x[i][j] = i*delta_x + data->xMin; 
-         data->y[i][j] = j*delta_y + data->yMin;
+         double delta_x = (data->xMax - data->xMin) / data->nX; 
+         double delta_y = (data->yMax - data->yMin) / data->nY;
+         data->x[i][j] = i * delta_x + data->xMin; 
+         data->y[i][j] = j * delta_y + data->yMin;
       }
    }
 
@@ -50,6 +50,7 @@ bool setup( sData* data ) {
    // set boundary conditions for scalar s1
    if( data->potentialFunc == PARALLELFLOW ) {
       //FIXME
+
    }
    
 //--- sub task 2 ---------------------------------------
